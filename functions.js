@@ -1,7 +1,6 @@
-import { error } from "node:console"
 import fs from "node:fs/promises"
 
-const filePath = "./databease/books.json"
+const filePath = "./database/books.json"
 
 async function readB() {
     try {
@@ -12,8 +11,8 @@ async function readB() {
     }
 }
 
-async function saveB(){
-    await fs.writeFile(filePath, JSON.stringify(data, null, 2))
+async function saveB(books){
+    await fs.writeFile(filePath, JSON.stringify(books, null, 2))
 }
 
 export async function getAllBooks() {

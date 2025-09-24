@@ -1,0 +1,26 @@
+[
+    {
+        "id": "k3f9x8z1a",
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949
+    },
+    {
+        "id": "z1q8w4e7r",
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "year": 1866
+    },
+    {
+        "id": "m4n7b6k2x",
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "year": 2003
+    },
+    {
+        "id": "xeq66uoh2",
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "year": 2008
+    }
+]
